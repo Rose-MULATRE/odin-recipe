@@ -1,0 +1,132 @@
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+    background: linear-gradient(to bottom, rgb(255, 245, 233),rgb(255, 253, 129));
+}
+
+* {
+    font-family: Roboto;
+    color: rgb(20, 20, 20);
+    text-align: justify;
+    
+}
+a {
+    text-decoration: none;
+}
+h2 {
+    font-family: Shrikhand;
+    font-weight: 100;
+}
+h3 {
+    font-family: Raleway;
+}
+.fa-arrow-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    color: rgb(255, 65, 17);
+}
+.recipe_title {
+    color: rgb(255, 65, 17);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 45px;
+    font-weight: bolder;
+   
+}
+section {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+div {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.219), white);
+    padding-left: 40px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+.section1 .recipe_picture {
+   border-radius: 50%;
+   width: 450px;
+   height: 380px;
+   background-color: transparent;
+   position: relative;
+   top: -25px;
+   left: 30px;
+}
+.section1 .description{
+    width: 65%;
+    height: 200px;
+   
+   
+}
+.description .part2 li, .nutrition_facts li {
+    display: inline-block;
+    margin: 25px;
+}
+.part1 {
+    background: transparent;
+}
+.part2 {
+    border-radius: 0px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(253, 105, 46);
+}
+.section2 .directions {
+    width: 65%;
+    border-bottom-right-radius: 0px;
+   
+}
+.section2 .ingredients {
+    width: 20%;
+    margin: 10px;
+    padding-right: 30px;
+    line-height: 30px;
+}
+.directions img {
+    width: 150px;
+    height: 100px;
+}
+.nutrition_facts ul, .nutrition_facts h2 {
+    display: inline-block;
+    margin-right: 30px;
+}
+.nutrition_facts {
+    text-align: justify;
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 15px;
+    position: relative;
+    border-top-right-radius: 0px;
+}
+.back{
+    background: radial-gradient( rgb(255, 253, 129), rgba(255, 65, 17, 0.808));
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-weight: 700;
+}
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(255, 65, 17);
+    font-size: 15px;
+}
+.fa {
+    color: rgb(255, 65, 17);
+}
+footer p {
+    text-align: right;
+    position: relative;
+    top: -35px;
+}
